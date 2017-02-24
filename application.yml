@@ -8,8 +8,8 @@ greeting: Hello World Again!!!!
 # This default profile is used when running a single instance completely standalone:
 spring:
   profiles: default
-server:
-  port: 8010  
+#server:
+#  port: 8010  
 eureka:
   instance:
     hostname: eurekahost 
