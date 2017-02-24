@@ -14,7 +14,7 @@ eureka:
   instance:
     hostname: eurekahost 
   client:
-    registerWithEureka: false
+    registerWithEureka: true
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://eurekahost:8716/eureka/    
