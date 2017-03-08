@@ -1,6 +1,9 @@
 #Sample greeting property 
 greeting: Hello World!!!!
 
+lucky-word: Testing ConfigServer
+
+
 
 #Eureka server Configurations
 
