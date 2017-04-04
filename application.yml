@@ -3,6 +3,10 @@ greeting: Hello World!!!!
 
 lucky-word: Testing ConfigServer
 
+---
+wordConfig:
+  preamble: The lucky word is
+  luckyWord: Irish
 
 
 #Eureka server Configurations
@@ -11,10 +15,13 @@ eureka:
 #  instance:
 #    hostname: eureka-primary
   client:
+
 #    registerWithEureka: true
 #    fetchRegistry: true
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/
+
+
 
 ---
 spring:
