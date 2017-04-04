@@ -6,7 +6,7 @@ lucky-word: Testing ConfigServer
 ---
 wordConfig:
   preamble: The lucky word is
-  luckyWord: Irish
+  luckyWord: Success
 
 
 #Eureka server Configurations
